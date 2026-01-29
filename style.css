@@ -3,14 +3,54 @@
    padding: 0;
    box-sizing: border-box;
 }
+
 body{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: hsl(240, 100%, 70%);
 }
+
+header{
+    display: flex;
+    background-color: hsl(240, 100%, 70%);
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    border-bottom:3px solid gold;
+    box-shadow: 0 0 15px gold;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
 .Easy-container{
     width: 80%;
-    height: auto;
     display: flex;
     flex-direction: column;
     background-color: brown;
@@ -28,12 +68,11 @@ body{
 
 .Main{
     width: 300px;
-    height: 100%;
-    background-color: yellow;
+    height: 220px;
+    background-color: red;
 }
 
 .Answers{
-    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
