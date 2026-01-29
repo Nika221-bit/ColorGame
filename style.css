@@ -1,0 +1,42 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Easy-container{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+}
+
+.Easy-MainColor{
+    width: 100%;
+    background-color: rebeccapurple;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Main{
+    width: 300px;
+    height: 100%;
+    background-color: yellow;
+}
+
+.Answers{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
