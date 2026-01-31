@@ -45,10 +45,6 @@ function startGame() {
   });
 
   
-  timer = setTimeout(function () {
-    score = 0;
-    
-  }, levelTime);
 }
 
 // Start ღილაკი
