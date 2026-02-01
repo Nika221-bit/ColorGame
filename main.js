@@ -1,14 +1,7 @@
-
-
 let score = 0;
-let timer;
-
-// const levelTime = 1500; 
-const colors = ["red",, "green", "blue"];
+const colors = ["red", "green", "blue"];
 
 function startGame() {
-  clearTimeout(timer);
-
   const colorIndex = Math.floor(Math.random() * colors.length);
   const targetColor = colors[colorIndex];
 
