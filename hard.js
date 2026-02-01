@@ -31,13 +31,12 @@ function start() {
                 scoreBoard.textContent = "score : " + score;
             }
 
-            start(); // თავიდან იწყებს თამაშს
-        };
-    });
+            start(); 
+    }});
 }
 
 document.getElementById("startBtn").addEventListener("click", function () {
     score = 0;
     document.getElementById("score").textContent = "score : 0";
-    start(); // აქ უნდა იყოს start(), არა startGame()
+    start(); 
 });
