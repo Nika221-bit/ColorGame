@@ -15,7 +15,7 @@ function start() {
     const answerButtons = document.querySelectorAll(".Answers span");
     answerButtons.forEach(function(button) {
         button.onclick = function () {
-            const chosenColor = button.textContent; // ან button.style.backgroundColor
+            const chosenColor = button.textContent; 
             if (chosenColor === pickedColor) {
                 score++;
             } else {
